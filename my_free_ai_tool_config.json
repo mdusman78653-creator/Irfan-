@@ -1,0 +1,28 @@
+{
+  "tool_name": "MyFreeAITool",
+  "description": "An AI assistant that helps users with text generation, answering questions, and simple data tasks.",
+  "capabilities": {
+    "text_generation": true,
+    "question_answering": true,
+    "data_analysis": false,
+    "image_generation": false
+  },
+  "input_format": {
+    "type": "text",
+    "example": "Explain quantum computing in simple terms."
+  },
+  "output_format": {
+    "type": "text",
+    "example": "Quantum computing uses quantum bits (qubits) that can represent 0 and 1 at the same time..."
+  },
+  "constraints": {
+    "max_tokens": 500,
+    "language": "English",
+    "free_usage": true
+  },
+  "metadata": {
+    "author": "YourName",
+    "version": "1.0",
+    "created_at": "2025-12-16"
+  }
+}
